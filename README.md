@@ -40,13 +40,15 @@ A DSL é projetada para ser simples e expressiva. O usuário escreve especifica�
 4. Crie o arquivo de entrada:
 Crie um arquivo de texto, como input.summary, com o conteúdo no formato da DSL.
 Exemplo:
-summary {
-    title: "Introdução às Redes Neurais"
-    text: "Redes neurais artificiais simulam o funcionamento do cérebro humano. Elas são compostas por neurônios artificiais interligados. São amplamente utilizadas em classificação de imagens, reconhecimento de fala e tradução de idiomas. Um exemplo é o uso em visão computacional, como reconhecimento facial."
-    focus: ["redes", "aplicações"]
-    num_ideas: 3
-    personal_comment: "O texto aborda conceitos importantes e aplicações práticas."
-}
+   ```bash
+   summary {
+       title: "Introdução às Redes Neurais"
+       text: "Redes neurais artificiais simulam o funcionamento do cérebro humano. Elas são compostas por neurônios artificiais interligados. São amplamente utilizadas em classificação de imagens, reconhecimento de fala e tradução de idiomas. Um exemplo é o uso em visão computacional, como reconhecimento facial."
+       focus: ["redes", "aplicações"]
+       num_ideas: 3
+       personal_comment: "O texto aborda conceitos importantes e aplicações práticas."
+   }
 
-5. Execute o compilador:
-python main.py input.summary
+6. Execute o compilador:
+   ```bash
+   python main.py input.summary
