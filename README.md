@@ -38,8 +38,6 @@ A DSL é projetada para ser simples e expressiva. O usuário escreve especifica�
    Este comando criará os arquivos SummaryLexer.py, SummaryParser.py e SummaryVisitor.py no diretório.
 
 4. Crie o arquivo de entrada:
-Crie um arquivo de texto, como input.summary, com o conteúdo no formato da DSL.
-Exemplo:
    ```bash
    summary {
        title: "Introdução às Redes Neurais"
@@ -52,3 +50,36 @@ Exemplo:
 6. Execute o compilador:
    ```bash
    python main.py input.summary
+   
+---
+
+## Exemplos
+
+### Exemplo 01
+Entrada:
+   ```bash
+summary {
+    title: "Avanços em Redes Neurais Profundas para Reconhecimento de Imagens"
+    text: "Nos últimos anos, as redes neurais profundas (DNNs) têm se destacado como uma das principais abordagens para reconhecimento de imagens em larga escala. Com a introdução de técnicas como o aprendizado por transferência, que utiliza modelos previamente treinados em grandes datasets, o desempenho em tarefas como reconhecimento facial e classificação de objetos melhorou significativamente. Além disso, as melhorias em arquiteturas como as Redes Neurais Convolucionais (CNNs) e a adoção de GPUs para acelerar o treinamento, resultaram em uma revolução no campo. Embora o treinamento de redes profundas ainda seja uma tarefa intensiva em termos de tempo e recursos computacionais, as vantagens em termos de precisão são inegáveis."
+    focus: ["redes neurais profundas", "reconhecimento de imagens", "aprendizado por transferência", "CNNs", "GPUs"]
+    num_ideas: 4
+    personal_comment: "O artigo aborda as melhorias substanciais nas técnicas de reconhecimento de imagens, que têm impacto direto em diversas aplicações como segurança e saúde."
+}
+
+Saida:
+   ```bash
+# Resumo: Avanços em Redes Neurais Profundas para Reconhecimento de Imagens
+
+## Ideias Principais
+1. Redes neurais profundas (DNNs) como a principal abordagem para reconhecimento de imagens.
+2. Aprendizado por transferência e o uso de modelos previamente treinados.
+3. Melhoria nas arquiteturas, especialmente nas CNNs, para maior precisão.
+4. Uso de GPUs para acelerar o treinamento de redes profundas.
+
+## Comentário Pessoal
+O artigo aborda as melhorias substanciais nas técnicas de reconhecimento de imagens, que têm impacto direto em diversas aplicações como segurança e saúde.
+
+
+
+
+
