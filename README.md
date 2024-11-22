@@ -2,7 +2,6 @@
 
 ## Equipe
 - **Pedro Afonso Cavalcanti Salvador**  
-- [Adicione aqui outros membros, se necessário]
 
 ---
 
@@ -34,10 +33,11 @@ A DSL é projetada para ser simples e expressiva. O usuário escreve especifica�
    git clone https://github.com/seu-usuario/resumo-dsl.git
    cd resumo-dsl
 2. Gere os arquivos do analisador com o ANTLR:
-antlr4 Summary.g4 -Dlanguage=Python3 -visitor
-Este comando criará os arquivos SummaryLexer.py, SummaryParser.py e SummaryVisitor.py no diretório.
+   ```bash
+   antlr4 Summary.g4 -Dlanguage=Python3 -visitor
+   Este comando criará os arquivos SummaryLexer.py, SummaryParser.py e SummaryVisitor.py no diretório.
 
-3. Crie o arquivo de entrada:
+4. Crie o arquivo de entrada:
 Crie um arquivo de texto, como input.summary, com o conteúdo no formato da DSL.
 Exemplo:
 summary {
@@ -48,5 +48,5 @@ summary {
     personal_comment: "O texto aborda conceitos importantes e aplicações práticas."
 }
 
-4. Execute o compilador:
+5. Execute o compilador:
 python main.py input.summary
