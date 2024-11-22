@@ -56,30 +56,76 @@ A DSL é projetada para ser simples e expressiva. O usuário escreve especifica�
 ## Exemplos
 
 ### Exemplo 01
-Entrada:
+- Entrada:
    ```bash
-summary {
-    title: "Avanços em Redes Neurais Profundas para Reconhecimento de Imagens"
-    text: "Nos últimos anos, as redes neurais profundas (DNNs) têm se destacado como uma das principais abordagens para reconhecimento de imagens em larga escala. Com a introdução de técnicas como o aprendizado por transferência, que utiliza modelos previamente treinados em grandes datasets, o desempenho em tarefas como reconhecimento facial e classificação de objetos melhorou significativamente. Além disso, as melhorias em arquiteturas como as Redes Neurais Convolucionais (CNNs) e a adoção de GPUs para acelerar o treinamento, resultaram em uma revolução no campo. Embora o treinamento de redes profundas ainda seja uma tarefa intensiva em termos de tempo e recursos computacionais, as vantagens em termos de precisão são inegáveis."
-    focus: ["redes neurais profundas", "reconhecimento de imagens", "aprendizado por transferência", "CNNs", "GPUs"]
-    num_ideas: 4
-    personal_comment: "O artigo aborda as melhorias substanciais nas técnicas de reconhecimento de imagens, que têm impacto direto em diversas aplicações como segurança e saúde."
-}
+   summary {
+       title: "Avanços em Redes Neurais Profundas para Reconhecimento de Imagens"
+       text: "Nos últimos anos, as redes neurais profundas (DNNs) têm se destacado como uma das principais abordagens para reconhecimento de imagens em larga escala. Com a introdução de técnicas como o aprendizado por transferência, que utiliza modelos previamente treinados em grandes datasets, o desempenho em tarefas como reconhecimento facial e classificação de objetos melhorou significativamente. Além disso, as melhorias em arquiteturas como as Redes Neurais Convolucionais (CNNs) e a adoção de GPUs para acelerar o treinamento, resultaram em uma revolução no campo. Embora o treinamento de redes profundas ainda seja uma tarefa intensiva em termos de tempo e recursos computacionais, as vantagens em termos de precisão são inegáveis."
+       focus: ["redes neurais profundas", "reconhecimento de imagens", "aprendizado por transferência", "CNNs", "GPUs"]
+       num_ideas: 4
+       personal_comment: "O artigo aborda as melhorias substanciais nas técnicas de reconhecimento de imagens, que têm impacto direto em diversas aplicações como segurança e saúde."
+   }
 
-Saida:
+- Saída:
    ```bash
-# Resumo: Avanços em Redes Neurais Profundas para Reconhecimento de Imagens
+   # Resumo: Avanços em Redes Neurais Profundas para Reconhecimento de Imagens
+   
+   ## Ideias Principais
+   1. Redes neurais profundas (DNNs) como a principal abordagem para reconhecimento de imagens.
+   2. Aprendizado por transferência e o uso de modelos previamente treinados.
+   3. Melhoria nas arquiteturas, especialmente nas CNNs, para maior precisão.
+   4. Uso de GPUs para acelerar o treinamento de redes profundas.
+   
+   ## Comentário Pessoal
+   O artigo aborda as melhorias substanciais nas técnicas de reconhecimento de imagens, que têm impacto direto em diversas aplicações como segurança e saúde.
 
-## Ideias Principais
-1. Redes neurais profundas (DNNs) como a principal abordagem para reconhecimento de imagens.
-2. Aprendizado por transferência e o uso de modelos previamente treinados.
-3. Melhoria nas arquiteturas, especialmente nas CNNs, para maior precisão.
-4. Uso de GPUs para acelerar o treinamento de redes profundas.
+### Exemplo 02
+- Entrada:
+   ```bash
+   summary {
+       title: "Ética e Implicações Sociais da Inteligência Artificial"
+       text: "A rápida evolução das tecnologias de inteligência artificial (IA) levantou uma série de questões éticas e sociais que precisam ser discutidas. A automação de processos através de IA pode levar a grandes ganhos de eficiência, mas também coloca em risco empregos em setores como manufatura e transporte. Além disso, a IA tem o potencial de perpetuar preconceitos e discriminação, já que os algoritmos podem refletir vieses presentes nos dados de treinamento. Por outro lado, o uso de IA na medicina, como diagnóstico assistido por máquina e tratamentos personalizados, pode melhorar a qualidade de vida de milhões de pessoas. Portanto, o uso ético da IA é essencial para garantir que seus benefícios sejam distribuídos de forma justa e equitativa."
+       focus: ["ética em IA", "automação", "preconceitos", "discriminação", "IA na medicina"]
+       num_ideas: 5
+       personal_comment: "Este artigo destaca tanto os benefícios quanto os riscos associados à IA, destacando a necessidade de regulamentação para seu uso ético."
+   }
 
-## Comentário Pessoal
-O artigo aborda as melhorias substanciais nas técnicas de reconhecimento de imagens, que têm impacto direto em diversas aplicações como segurança e saúde.
+- Saída:
+   ```bash
+   # Resumo: Ética e Implicações Sociais da Inteligência Artificial
+   
+   ## Ideias Principais
+   1. A automação através de IA pode gerar ganhos de eficiência, mas também ameaça empregos.
+   2. A IA pode perpetuar preconceitos e discriminação, refletindo vieses dos dados.
+   3. Uso de IA na medicina pode melhorar o diagnóstico e tratamentos personalizados.
+   4. A necessidade de regulamentação ética para garantir o uso justo da IA.
+   5. Benefícios e riscos da IA precisam ser equilibrados de forma justa e equitativa.
+   
+   ## Comentário Pessoal
+   Este artigo destaca tanto os benefícios quanto os riscos associados à IA, destacando a necessidade de regulamentação para seu uso ético.
 
+### Exemplo 03
+- Entrada:
+   ```bash
+   summary {
+       title: "O Impacto das Mudanças Climáticas e a Busca por Soluções Sustentáveis"
+       text: "O aquecimento global causado pela emissão de gases de efeito estufa tem sido uma das principais ameaças ao meio ambiente nas últimas décadas. As consequências das mudanças climáticas incluem o aumento da frequência de desastres naturais, como enchentes e secas, além do derretimento das calotas polares. Em resposta a essa crise, diversos países têm adotado políticas para reduzir suas emissões de carbono e promover o uso de fontes de energia renováveis, como a solar e a eólica. A transição para uma economia sustentável requer investimentos em novas tecnologias e uma mudança cultural para reduzir o consumo excessivo de recursos naturais. Contudo, a adoção de soluções sustentáveis precisa ser global e cooperativa, uma vez que o impacto das mudanças climáticas não respeita fronteiras nacionais."
+       focus: ["mudanças climáticas", "emissões de carbono", "energias renováveis", "economia sustentável", "soluções globais"]
+       num_ideas: 6
+       personal_comment: "A luta contra as mudanças climáticas exige ações coordenadas entre países e investimentos em novas tecnologias para um futuro sustentável."
+   }
 
-
-
-
+- Saída:
+   ```bash
+   # Resumo: O Impacto das Mudanças Climáticas e a Busca por Soluções Sustentáveis
+   
+   ## Ideias Principais
+   1. O aquecimento global causado pelas emissões de gases de efeito estufa está afetando o meio ambiente.
+   2. As mudanças climáticas têm gerado desastres naturais mais frequentes, como enchentes e secas.
+   3. Políticas de redução das emissões de carbono estão sendo implementadas em diversos países.
+   4. A promoção de fontes de energia renováveis, como solar e eólica, é uma das soluções adotadas.
+   5. A transição para uma economia sustentável exige mudanças culturais e tecnológicas.
+   6. A colaboração global é essencial para enfrentar as mudanças climáticas de maneira eficaz.
+   
+   ## Comentário Pessoal
+   A luta contra as mudanças climáticas exige ações coordenadas entre países e investimentos em novas tecnologias para um futuro sustentável.
